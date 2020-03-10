@@ -1,6 +1,5 @@
-import LogBody from "./LogBody";
 
-export default class MeetingLog implements LogBody {
+export default class MeetingLog{
     sequenceNumber: number;
     message: string;
     timestampMs: number;

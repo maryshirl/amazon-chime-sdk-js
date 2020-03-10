@@ -112,7 +112,6 @@ import JPEGDecoderModule from './jpegdecoder/webassembly/JPEGDecoderModule';
 import JoinAndReceiveIndexTask from './task/JoinAndReceiveIndexTask';
 import LeaveAndReceiveLeaveAckTask from './task/LeaveAndReceiveLeaveAckTask';
 import ListenForVolumeIndicatorsTask from './task/ListenForVolumeIndicatorsTask';
-import LogBody from './logger/LogBody';
 import LogLevel from './logger/LogLevel';
 import Logger from './logger/Logger';
 import Maybe from './maybe/Maybe';
@@ -391,7 +390,6 @@ export {
   JoinAndReceiveIndexTask,
   LeaveAndReceiveLeaveAckTask,
   ListenForVolumeIndicatorsTask,
-  LogBody,
   LogLevel,
   Logger,
   Maybe,
