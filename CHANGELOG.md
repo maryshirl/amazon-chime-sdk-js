@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add injectable session URL rewrite function to support proxies
 
 ### Changed
+- Add observer event for content sharing
 - Stop content share if the media stream end
 - Trap video sending SSRC change in two consecutive negotiation
 - Do not bypass ice gathering based on sdp connection attributes for Safari on iOS
