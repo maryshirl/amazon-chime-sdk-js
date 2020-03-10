@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Doc guide generator
 - Add basic component library setup
 - Add injectable session URL rewrite function to support proxies
+- Add POSTLogger for meeting sessions
 
 ### Changed
 - Stop content share if the media stream end
@@ -78,6 +79,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Make sure both participants in audio and video tests reach finish state before retrying
 - Trigger videoSendBandwidthDidChange and videoReceiveBandwidthDidChange for Safari
 - Do not disconnect video element with different srcObj when destroying video tile
+- Stop content share if the media stream end
 
 ### Removed
 - Remove SDP class withPlanBSimulcast method
